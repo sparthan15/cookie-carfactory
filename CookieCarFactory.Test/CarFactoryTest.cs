@@ -9,8 +9,7 @@ namespace CookieCarFactory.Test
 {
     public class CarFactoryTest
     {
-        private CarFactory carFactory = new CarFactory();
-
+        private readonly CarFactory carFactory = new CarFactory();
         [Fact]
         void canCreateCarFactory()
         {

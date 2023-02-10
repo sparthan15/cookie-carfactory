@@ -9,9 +9,9 @@ namespace CookieCarFactory.Model
 {
     public class Car
     {
-        protected bool _hasBabyChair;
-        protected int _maxSpeed;
-        protected int _numberOfDoors;
+        protected readonly bool _hasBabyChair;
+        protected readonly int _maxSpeed;
+        protected readonly int _numberOfDoors;
         protected Car(bool hasBabyChair, int maxSpeed, int numberOfDoors)
         {
             _hasBabyChair = hasBabyChair;
