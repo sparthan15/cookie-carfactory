@@ -17,6 +17,12 @@ namespace CookieCarFactory.Test.Model
         }
 
         [Fact]
+        void schoolCarHas5Doors()
+        {
+            Assert.Equal(5, schoolCar.NumberOfDoors());
+        }
+
+        [Fact]
         void schoolCarHasBabyChair()
         {
             Assert.True(schoolCar.HasBabyChair());

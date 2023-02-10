@@ -8,7 +8,7 @@ namespace CookieCarFactory.Model
 {
     internal sealed class SchoolCar : Car
     {
-        public SchoolCar():base(true, SpeedLimit.Fifthy) { }
+        public SchoolCar():base(true, SpeedLimit.Fifthy, 5) { }
       
     }
 }

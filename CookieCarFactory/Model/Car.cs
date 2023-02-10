@@ -11,11 +11,12 @@ namespace CookieCarFactory.Model
     {
         protected bool _hasBabyChair;
         protected int _maxSpeed;
-
-        protected Car(bool hasBabyChair, int maxSpeed)
+        protected int _numberOfDoors;
+        protected Car(bool hasBabyChair, int maxSpeed, int numberOfDoors)
         {
             _hasBabyChair = hasBabyChair;
             _maxSpeed = maxSpeed;   
+            _numberOfDoors = numberOfDoors;
         }
 
         public static Car Build(CarType carType)
@@ -35,6 +36,11 @@ namespace CookieCarFactory.Model
         public int MaxSpeed()
         {
             return _maxSpeed;
+        }
+
+        public int NumberOfDoors()
+        {
+            return _numberOfDoors;
         }
 
         public struct SpeedLimit

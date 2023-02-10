@@ -8,7 +8,7 @@ namespace CookieCarFactory.Model
 {
     internal sealed class RacingCar:Car
     {
-        public RacingCar():base(false, SpeedLimit.ThreeHundred) { } 
+        public RacingCar():base(false, SpeedLimit.ThreeHundred, 2) { } 
       
     }
 }

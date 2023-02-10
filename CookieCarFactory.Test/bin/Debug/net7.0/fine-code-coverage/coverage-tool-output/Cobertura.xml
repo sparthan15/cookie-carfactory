@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.942857142857143" branch-rate="1" lines-covered="66" lines-valid="70" branches-covered="4" branches-valid="4" complexity="26" version="0" timestamp="1675985933">
+<coverage line-rate="0.948051948051948" branch-rate="1" lines-covered="73" lines-valid="77" branches-covered="4" branches-valid="4" complexity="28" version="0" timestamp="1675986384">
   <sources>
     <source>C:\Users\CarlosGamboa\</source>
   </sources>
   <packages>
-    <package name="CookieCarFactory" line-rate="0.909090909090909" branch-rate="1" complexity="13">
+    <package name="CookieCarFactory" line-rate="0.918918918918919" branch-rate="1" complexity="14">
       <classes>
         <class name="CookieCarFactory.CarFactory" filename="C:\Users\CarlosGamboa\Development\training\back-end\csharp\CookieCarFactory\CookieCarFactory\CarFactory.cs" line-rate="0.8" branch-rate="1" complexity="6">
           <methods>
@@ -63,58 +63,70 @@
             <line number="34" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="CookieCarFactory.Model.Car" filename="C:\Users\CarlosGamboa\Development\training\back-end\csharp\CookieCarFactory\CookieCarFactory\Model\Car.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="CookieCarFactory.Model.Car" filename="C:\Users\CarlosGamboa\Development\training\back-end\csharp\CookieCarFactory\CookieCarFactory\Model\Car.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
             <method name="Build" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="22" hits="9" branch="false" />
-                <line number="23" hits="9" branch="true" condition-coverage="100% (2/2)" />
-                <line number="24" hits="4" branch="false" />
-                <line number="26" hits="5" branch="false" />
-                <line number="27" hits="9" branch="false" />
+                <line number="23" hits="10" branch="false" />
+                <line number="24" hits="10" branch="true" condition-coverage="100% (2/2)" />
+                <line number="25" hits="5" branch="false" />
+                <line number="27" hits="5" branch="false" />
+                <line number="28" hits="10" branch="false" />
               </lines>
             </method>
             <method name="HasBabyChair" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="31" hits="2" branch="false" />
                 <line number="32" hits="2" branch="false" />
                 <line number="33" hits="2" branch="false" />
+                <line number="34" hits="2" branch="false" />
               </lines>
             </method>
             <method name="MaxSpeed" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="36" hits="2" branch="false" />
                 <line number="37" hits="2" branch="false" />
                 <line number="38" hits="2" branch="false" />
+                <line number="39" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="NumberOfDoors" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="9" branch="false" />
-                <line number="16" hits="9" branch="false" />
-                <line number="17" hits="9" branch="false" />
-                <line number="18" hits="9" branch="false" />
-                <line number="19" hits="9" branch="false" />
+                <line number="15" hits="10" branch="false" />
+                <line number="16" hits="10" branch="false" />
+                <line number="17" hits="10" branch="false" />
+                <line number="18" hits="10" branch="false" />
+                <line number="19" hits="10" branch="false" />
+                <line number="20" hits="10" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="15" hits="9" branch="false" />
-            <line number="16" hits="9" branch="false" />
-            <line number="17" hits="9" branch="false" />
-            <line number="18" hits="9" branch="false" />
-            <line number="19" hits="9" branch="false" />
-            <line number="22" hits="9" branch="false" />
-            <line number="23" hits="9" branch="true" condition-coverage="100% (2/2)" />
-            <line number="24" hits="4" branch="false" />
-            <line number="26" hits="5" branch="false" />
-            <line number="27" hits="9" branch="false" />
-            <line number="31" hits="2" branch="false" />
+            <line number="15" hits="10" branch="false" />
+            <line number="16" hits="10" branch="false" />
+            <line number="17" hits="10" branch="false" />
+            <line number="18" hits="10" branch="false" />
+            <line number="19" hits="10" branch="false" />
+            <line number="20" hits="10" branch="false" />
+            <line number="23" hits="10" branch="false" />
+            <line number="24" hits="10" branch="true" condition-coverage="100% (2/2)" />
+            <line number="25" hits="5" branch="false" />
+            <line number="27" hits="5" branch="false" />
+            <line number="28" hits="10" branch="false" />
             <line number="32" hits="2" branch="false" />
             <line number="33" hits="2" branch="false" />
-            <line number="36" hits="2" branch="false" />
+            <line number="34" hits="2" branch="false" />
             <line number="37" hits="2" branch="false" />
             <line number="38" hits="2" branch="false" />
+            <line number="39" hits="2" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
           </lines>
         </class>
         <class name="CookieCarFactory.Model.RacingCar" filename="C:\Users\CarlosGamboa\Development\training\back-end\csharp\CookieCarFactory\CookieCarFactory\Model\RacingCar.cs" line-rate="1" branch-rate="1" complexity="1">
@@ -133,17 +145,17 @@
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="12" branch="false" />
+                <line number="11" hits="15" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="11" hits="12" branch="false" />
+            <line number="11" hits="15" branch="false" />
           </lines>
         </class>
       </classes>
     </package>
-    <package name="CookieCarFactory.Test" line-rate="0.972972972972973" branch-rate="1" complexity="13">
+    <package name="CookieCarFactory.Test" line-rate="0.975" branch-rate="1" complexity="14">
       <classes>
         <class name="AutoGeneratedProgram" filename="C:\Users\CarlosGamboa\.nuget\packages\microsoft.net.test.sdk\17.3.2\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -161,29 +173,29 @@
           <methods>
             <method name="canCreateCarFactory" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="15" hits="1" branch="false" />
                 <line number="16" hits="1" branch="false" />
                 <line number="17" hits="1" branch="false" />
+                <line number="18" hits="1" branch="false" />
               </lines>
             </method>
             <method name="canBuildOneCar" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="1" branch="false" />
                 <line number="22" hits="1" branch="false" />
                 <line number="23" hits="1" branch="false" />
                 <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="canBuildUnlimitedCar" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="canBuildManyCars" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="28" hits="1" branch="false" />
                 <line number="29" hits="1" branch="false" />
                 <line number="30" hits="1" branch="false" />
                 <line number="31" hits="1" branch="false" />
                 <line number="32" hits="1" branch="false" />
-                <line number="34" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
                 <line number="35" hits="1" branch="false" />
                 <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -194,21 +206,21 @@
           </methods>
           <lines>
             <line number="12" hits="3" branch="false" />
-            <line number="15" hits="1" branch="false" />
             <line number="16" hits="1" branch="false" />
             <line number="17" hits="1" branch="false" />
-            <line number="21" hits="1" branch="false" />
+            <line number="18" hits="1" branch="false" />
             <line number="22" hits="1" branch="false" />
             <line number="23" hits="1" branch="false" />
             <line number="24" hits="1" branch="false" />
-            <line number="28" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
             <line number="29" hits="1" branch="false" />
             <line number="30" hits="1" branch="false" />
             <line number="31" hits="1" branch="false" />
             <line number="32" hits="1" branch="false" />
-            <line number="34" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
             <line number="35" hits="1" branch="false" />
             <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
           </lines>
         </class>
         <class name="CookieCarFactory.Test.Model.RacingCarTest" filename="C:\Users\CarlosGamboa\Development\training\back-end\csharp\CookieCarFactory\CookieCarFactory.Test\Model\RacingCarTest.cs" line-rate="1" branch-rate="1" complexity="4">
@@ -253,7 +265,7 @@
             <line number="30" hits="1" branch="false" />
           </lines>
         </class>
-        <class name="CookieCarFactory.Test.Model.SchooCarTest" filename="C:\Users\CarlosGamboa\Development\training\back-end\csharp\CookieCarFactory\CookieCarFactory.Test\Model\SchooCarTest.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="CookieCarFactory.Test.Model.SchooCarTest" filename="C:\Users\CarlosGamboa\Development\training\back-end\csharp\CookieCarFactory\CookieCarFactory.Test\Model\SchooCarTest.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
             <method name="canCreateSchoolCar" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -262,28 +274,35 @@
                 <line number="17" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="schoolCarHasBabyChair" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="schoolCarHas5Doors" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="21" hits="1" branch="false" />
                 <line number="22" hits="1" branch="false" />
                 <line number="23" hits="1" branch="false" />
               </lines>
             </method>
-            <method name="schoolCarCanReachUpTo50MilesPerHour" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="schoolCarHasBabyChair" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="27" hits="1" branch="false" />
                 <line number="28" hits="1" branch="false" />
                 <line number="29" hits="1" branch="false" />
               </lines>
             </method>
+            <method name="schoolCarCanReachUpTo50MilesPerHour" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+              </lines>
+            </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="12" hits="3" branch="false" />
+                <line number="12" hits="4" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="12" hits="3" branch="false" />
+            <line number="12" hits="4" branch="false" />
             <line number="15" hits="1" branch="false" />
             <line number="16" hits="1" branch="false" />
             <line number="17" hits="1" branch="false" />
@@ -293,6 +312,9 @@
             <line number="27" hits="1" branch="false" />
             <line number="28" hits="1" branch="false" />
             <line number="29" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
           </lines>
         </class>
       </classes>
